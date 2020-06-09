@@ -15,12 +15,60 @@ body {
 }
 
 .container {
-  padding: 20px 20px 0 20px;box
+  padding: 150px 150px 0 150px;
 }
 
 header {
-  height: 200px;
-  background-color: yellow;
+}
+
+.wood {
+  background-image: url("https://cdn.pixabay.com/photo/2015/09/09/16/05/forest-931706_960_720.jpg");
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  border: 10px solid white;
+  position:relative;
+}
+
+.natural {
+  position: absolute;
+  width:75%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.natural h1,h3 {
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.natural h1 {
+  border: 5px solid white;
+  font-size: 60px;
+  margin-bottom: 40px;
+}
+
+.natural h3 {
+  font-size: 20px;
+}
+
+nav {
+  height: 50px;
+  background-color: grey;
+  text-align: center;
+}
+
+ul li {
+  color: white;
+  display: inline-block;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 50px;
+  padding: 0 6px;
 }
 
 .row {
