@@ -81,6 +81,13 @@ aside .box {
   padding: 10px;
 }
 
+.box h3 span {
+  float: left;
+  padding-left: 3px;
+  width: 50%;
+}
+
+
 .box i {
   color: orange;
   font-size: 30px;
@@ -91,11 +98,6 @@ aside .box {
   font-size: 30px;
   color: #504741;
 }
-
-aside .card {
-  display: inline-block;
-  float: left;
-  }
 
 .box p {
   font-size: 20px;
