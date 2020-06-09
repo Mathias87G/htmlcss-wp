@@ -18,9 +18,6 @@ body {
   padding: 50px 150px 20px 150px;
 }
 
-header {
-}
-
 .wood {
   background-image: url("https://cdn.pixabay.com/photo/2015/09/09/16/05/forest-931706_960_720.jpg");
   height: 400px;
@@ -32,6 +29,8 @@ header {
 }
 
 .natural {
+  width: 60%;
+  text-align: center;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -82,9 +81,10 @@ aside .box {
   padding: 10px;
 }
 
-.box a {
+.box i {
   color: orange;
   font-size: 30px;
+  float:left;
 }
 
 .box h3 {
@@ -92,6 +92,10 @@ aside .box {
   color: #504741;
 }
 
+aside .card {
+  display: inline-block;
+  float: left;
+  }
 
 .box p {
   font-size: 20px;
