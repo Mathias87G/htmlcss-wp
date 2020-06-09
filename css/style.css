@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-  padding: 150px 150px 0 150px;
+  padding: 50px 150px 20px 150px;
 }
 
 header {
@@ -78,17 +78,31 @@ nav ul li {
 }
 
 aside {
-  width: 25%;
+  width: 20%;
   float: left;
+}
+
+aside .box {
+  margin-bottom: 30px;
+  padding: 10px;
+}
+
+.box a {
+  color: orange;
+  font-size: 30px;
 }
 
 .box h3 {
   font-size: 30px;
-  color: #504741
+  color: #504741;
 }
 
-aside .box {
-  background-color: white;
+
+.box p {
+  font-size: 20px;
+  margin-top: 30px;
+  line-height: 30px;
+  font-weight: bolder;
 }
 
 .box ul li {
@@ -100,23 +114,39 @@ aside .box {
 }
 
 main {
-  height: 700px;
-  width: 50%;
+  width: 60%;
   float:left;
   padding: 0 50px;
 }
 
 main .box {
-  background-color: pink;
+  padding: 10px;
+}
+
+main .box h3 {
+  text-transform: uppercase;
 }
 
 .box {
   height: 100%;
   margin-bottom: 10px;
   border-radius: 5px;
+  background-color: white;
 }
 
 footer {
-  height: 200px;
-  background-color: lightblue;
+  color: #d1d1d1;
+  background-color: white;
+  border-radius: 5px;
+  text-align: center;
+  font-style: italic;
+  padding: 2px 10px;
+  font-size: 20px;
+}
+
+.icons a {
+  font-size: 40px;
+  color: #d1d1d1;
+  text-align: center;
+  margin: 50px;
 }
